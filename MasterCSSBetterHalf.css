@@ -1,0 +1,257 @@
+body{  
+		background-color:#FFF1EB;
+		font-family: Verdana;
+		
+		}
+	
+		
+		#mainheader{ 
+			/*Style for header in all pages, id should be the same for all pages*/
+			width:100%;
+            height:280px;
+			border-bottom-style:solid;
+            border-bottom-style: double;
+            border-bottom-width: thick;
+			border-color: #FF914D;
+            text-align: center;
+            content-align:center;
+            background-color:#FFF1EB
+		}
+	
+		/*Style for Login buttons, at the end all should have the same id*/
+		#login, #Login, #CreateAccountB{
+			
+			text-align: right;
+			margin-top: 80px;
+			margin-bottom:80px;
+			margin-left:400px;
+            background-color: #FF914D;
+            color:white;
+            padding: 20px 30px; 
+            font-size: 20px;
+       
+            font-family:serif;
+            font-weight: bold;
+            border-radius: 100px;
+     
+        }
+        
+        /*Style for input text and password, applies to all pages who have that type*/
+        input[type="text"] input[type="password"]{
+			background-color:#white;
+			width:280px;
+			float:center;
+
+		}
+		
+		/*Style for form Create account, not final*/	
+		#CreateAccount{
+			text-align: center;
+			
+		}
+		
+		/*Style for form Create Account, not final*/		
+		#CA{
+			text-align: center;
+		}
+        
+        /*Style for Safety and Privacy Title, should include the id in all pages*/
+        h1{
+            text-align: center;
+            content-align:center;
+            font-size: 26px;
+            color: #AF0000;
+            
+        }
+        
+        h2{
+        	text-align: center;
+            content-align:center;
+            font-size: 18px;
+            color: white;
+        
+        }
+        
+        #PTitle{
+        	text-align: center;
+            content-align:center;
+            font-size: 26px;
+            color: #AF0000;
+            color: white;
+        }
+        
+        #Paragraph{
+        	text-align:left;
+        	font-size:16px;
+        }
+        
+        /*Style for legend in fieldsets, to remove if not used*/
+        legend{
+        	color:#af0000;
+        	font-size:24px;
+        	border-color:white;
+        }
+        
+        /*Style for Login Form, may need to add id*/
+        #LoginF{
+		  font-family: serif;
+		  font-size:20px;
+		  background-image: url("OwlRight.jpg");
+		  color:white;
+		  width: 100%;
+		  height: 80%;
+		  background-color:#af0000;
+		  padding: 15px;
+		  margin: 22px 0 42px 0;
+		  display: inline-block;
+		  border: none;
+		  outline:none;
+		  font-style:bold;
+		  float:center;
+		  text-align:center;
+		  content-align:center;
+		}
+		
+		/*Style for divs in Create account,includes color and format*/
+		#div1, #div2, #div3{
+		  font-family: serif;
+		  font-size:20px;
+		  color:black;
+		  width: 90%;
+		  background-color:#ff914d;
+		  display: inline-block;
+		  border: none;
+		  outline:none;
+		  font-style:bold;
+		  float:center;
+		  font-weight: 200;
+		}
+        
+        /*Style for buttons Login and Submit in Create Account page, may need to add ids*/
+         #LoginB{
+       		margin-top:10px;
+       		font-size:20px;
+        	text-align: center;
+            background-color: #FF914D;
+            color:white;
+            border-color:#ff914d ;
+            font-family:serif;
+            font-weight: bold;
+            border-radius:70px;
+        }
+        
+        /*Style for button sumitb in create account page, may need to add ids*/
+        #submitB{
+       		margin-top:10px;
+        	text-align: center;
+        	content-align:center;
+            background-color: #FF914D;
+            color:white;
+            border-color:#ff914d ;
+            font-family:serif;
+            font-weight: bold;
+            border-radius:70px;
+            font-size:20px;
+        }
+        
+        /*Style for slogan in Home Page, may need to add ids*/
+        #slogan{
+			content-align:center;
+			text-align: center;
+			font-style: italic;
+			font-family: cursive;
+			font-size: 60px;
+		}
+        
+        /*Style for text in html pages, may need to add ids*/
+    	#text{
+            		
+            background-color: #fff1EB;
+            font-family:serif;
+        }
+		
+
+         #bottom{
+            border-top-style:solid;
+			border-color: #AF0000;
+            
+        }
+ 
+		
+		#bottomcenter{
+			width: 33%;
+            float:left;
+		}
+
+		/*Style for menu at the end, should be the same id in all pages*/
+ 		#BottomBottom{
+			text-align: center;
+			width:100%;
+            background-color: #FF914D;
+            color: white;
+            border-color: #ff914d;
+        }
+       	
+       	/*A style for links, same for all pages*/
+        a{
+            text-decoration: none;
+            color:white;
+        }
+
+              
+        /*A style for links*/
+        a:visited{
+            color:white;
+        }
+		
+		/*Style for footer in all pages, id must be the same in all*/	
+		#footer{
+			float:right;
+			text-align: center;
+			width:100%;
+			background-color:#AF0000;
+			position:absolute;
+			
+		}
+		
+		#UserPhoto{
+			margin-top:80px;
+			margin-right:20px;
+			height:80px;
+			width:80px;
+		
+		}	
+		
+		
+		#modify{			
+					background-color:#FFCEAF;
+					margin-top:100px;
+					width:650px;
+					font-weight:400;
+					height:275px;
+			
+
+		}	
+		
+		#UsersPhotos{
+			margin-top:80px;
+			margin-right:20px;
+			height:120px;
+			width:120px;
+		
+		}	
+		
+		table {
+			border: 1px solid black;
+  			//border-collapse: collapse;
+  			width: 100%;
+		}
+		
+		th, td {
+			text-align: center;
+			border: 1px solid black;
+		}
+		
+		tr:nth-child(even) {
+			background-color: white;
+			}
